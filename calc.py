@@ -1,8 +1,10 @@
 def calc(a, b):
-    sum = a + b
-    #print(sum)
+    add = a + b
+    #print(add)
     diff = a - b
     prod = a * b
     div = a / b
     
-    list = [sum, diff, prod, div]
+    list = [add, diff, prod, div]
+    
+    listSum = sum(list)
