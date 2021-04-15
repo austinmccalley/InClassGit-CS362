@@ -4,3 +4,5 @@ def calc(a, b):
     diff = a - b
     prod = a * b
     div = a / b
+    
+    list = [sum, diff, prod, div]
