@@ -1,12 +1,10 @@
-import math
-
-
 def calcDivisors(n):
     divisiors = []
-    for i in range(1, math.floor(n / 2)):
+    for i in range(1, n):
         if n % i == 0:
             divisiors.append(i)
     return divisiors
+
 
 userNumber = input('Please enter a number: ')
 d = calcDivisors(int(userNumber))
