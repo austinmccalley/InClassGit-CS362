@@ -8,8 +8,8 @@ def calcDivisors(n):
             divisiors.append(i)
     return divisiors
 
-
-d = calcDivisors(20)
+userNumber = input('Please enter a number: ')
+d = calcDivisors(int(userNumber))
 
 
 for i in range(len(d)):
