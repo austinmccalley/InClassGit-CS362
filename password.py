@@ -2,7 +2,7 @@ import random
 
 
 def randomCharacter():
-    randomInt = random.randint(0, 255)
+    randomInt = random.randint(33, 126)
     randomChar = (chr(randomInt))
     return randomChar
 
