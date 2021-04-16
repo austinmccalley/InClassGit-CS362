@@ -8,10 +8,11 @@ def randomCharacter():
 
 def generatePassword(n):
     password = ''
-    for _ in range(n):
+    for _ in range(int(n)):
       password += randomCharacter()
+    return password
 
 
 passwordLength = input('Please enter a length for the password: ')
-
+print('Password: ' + generatePassword(passwordLength))
 
